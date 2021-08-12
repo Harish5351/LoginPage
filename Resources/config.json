@@ -1,0 +1,39 @@
+{
+    "App":
+      {
+          "app_flag":false,
+          "os_version" : "10.0",
+          "device" : "Samsung Galaxy J64519",
+          "app_url" : "PointHealthAndroidAppTest",
+          "build" : " ",
+          "name" : "test_1",
+          "browserstack.appium_version" : "1.8.0",
+          "browserstack.user" : "finexityag1",
+          "browserstack.key" : "aCuenAxysq7MGoAEN7LC",
+          
+          "Emulator_app":"C:/Users/Manisha/Documents/Finexity/apk/Finexity31July.apk",
+          "Emulator_deviceName":"Android Emulator",
+          "platformName":"Android",
+          "appPackage":"com.finexity.androidapp",
+          "appActivity":"com.finexity.androidapp.MainActivity",
+          
+          "automationName":"UiAutomator2",
+          "realdevice_deviceName":"70b04979",
+          "realdevice_build":"22JulyAPK",
+          "realdevice_newCommandTimeout":180,
+          "realdevice_os_version":"8.0",
+          "realdevice_noReset":true
+  
+      },
+      "Web":{
+          "web_flag":false,
+          "ExecutionMode":"Cloud", 
+          "browserName": "chrome",
+          "name": "single_test",
+          "build": "cucumber-js-browserstack",
+          "browserstack.debug": true,
+          "browserstack.user" : "spurqlabs1",
+          "browserstack.key" : "a4pxQ63QxAuzTuwpoxas"
+      }
+  }    
+  

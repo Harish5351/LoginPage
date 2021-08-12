@@ -1,0 +1,22 @@
+com.pointhealth[@text='Doctors']
+
+adb shell dumpsys window |findstr mCurrentFocus
+
+1) Get Started: xpath=//android.widget.TextView[@text='Get Started']
+
+2) Account: (//*[@class='android.widget.TextView'])[18]
+
+3) Sign In:(//*[@text='Sign In'])
+
+4) Email Address: (//*[@resource-id='username'])
+5) Email Password: (//*[@resource-id='password'])
+
+6)Sign-In: (//*[@text='Sign In'])[2]
+
+
+Username	                 Access Key
+browserstackfine_K3LUAM	        NXKHbmFgk38oDQpZR8pa
+
+
+7) Browser: (//android.widget.ImageView[@resource-id='android:id/icon'])[1]
+&& !capabilities.get('app')

@@ -1,0 +1,12 @@
+{
+  "name": "point-health",
+  "version": "1.0.0",
+  "description": "LoginExample",
+  "main": "Login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harish",
+  "license": "ISC",
+  "keywords": []
+}
